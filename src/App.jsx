@@ -12,6 +12,7 @@ import Work from "./components/Works/Work";
 import Footer from "./components/Footer/Footer";
 import ContactUs from "./pages/ContactUs";
 import AboutUs from "./pages/AboutUs";
+import WorkCard from "./components/Works/WorkCard";
 
 const App = () => {
   useEffect(() => {
@@ -41,8 +42,10 @@ const App = () => {
 const Home = () => (
   <>
     <Hero />
-    <Services />
+    
+    {/* <Services /> */}
     <Work />
+    <WorkCard />
   </>
 );
 

@@ -8,8 +8,8 @@ const FooterLinks = [
     link: "/#about",
   },
   {
-    title: "Features",
-    link: "/#features",
+    title: "Services",
+    link: "/#services",
   },
   {
     title: "Works",
@@ -44,12 +44,12 @@ const ResourcesLinks = [
     link: "/#ebooks",
   },
   {
-    title: "How To Blog",
-    link: "/#blogs",
+    title: "How To Deploy",
+    link: "/#Deploy",
   },
   {
-    title: "Subscribe TCJ",
-    link: "https://www.youtube.com/channel/UC1H-a1MKEFXRiFlGNLcy7gQ?sub_confirmation=1",
+    title: "Subscribe HH",
+    link: "github.com/HOTHEAD01TH",
   },
 ];
 const Footer = () => {
