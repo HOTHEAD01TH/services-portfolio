@@ -10,9 +10,9 @@ function App() {
       <Navbar />
       <Switch>
         <Route path="/" exact component={Home} />
-        <Route path="/services" component={Services} />
-        <Route path="/contact" component={Contact} />
-        <Route path="/about-us" component={AboutUs} />
+        <Route path="/Services" component={Services} />
+        <Route path="/Contact" component={Contact} />
+        <Route path="/AboutUs" component={AboutUs} />
       </Switch>
       <Footer />
     </div>
