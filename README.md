@@ -20,26 +20,43 @@ This is a Services Portfolio web application built using React and a CSS framewo
 
 ## Setup Instructions
 
-To run this project locally, follow these steps:
+To get a local copy of the code, clone it using git:
 
-1. **Clone the repository:**
+```
+git clone https://github.com/HOTHEAD01TH/services-portfolio.git
+cd services-portfolio
+```
 
-   ```bash
-   git clone <repository-url>
-   cd <project-folder>
+Make it your own:
 
-   Install dependencies:
+```
+rm -rf .git && git init && npm init
+git add .
+git commit -m "Initial commit"
+```
 
-```bash
+Install dependencies:
 
-npm install
+```
+npm i
+```
 
-Start the development server:
+Now, you can start a local web server by running:
 
-```bash
-
+```
 npm start
+```
 
-Open your browser:
+And then open http://localhost:3000 to view it in the browser.
 
-Visit http://localhost:3000 to view the application.
+#### Available Scripts
+
+In this project, you can run the following scripts:
+
+| Script        | Description                                             |
+| ------------- | ------------------------------------------------------- |
+| npm start     | Runs the app in the development mode.                   |
+| npm test      | Launches the test runner in the interactive watch mode. |
+| npm run build | Builds the app for production to the `dist` folder.     |
+| npm run serve | Serves the production build from the `dist` folder.     |
+| npm run dev   | If npm start doesnt work you can try this.              |
